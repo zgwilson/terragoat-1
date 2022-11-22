@@ -21,7 +21,7 @@ jobs:
         with:
           api_token: ${{ secrets.ORCA_TOKEN }}
           project_key: ${{ env.PROJECT_KEY }}
-          path: "./terraform/azure"
+          path: "./terraform/gcp"
           format: "json"
           output: "results/iac_scan/"
       
